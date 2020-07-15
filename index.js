@@ -1,9 +1,9 @@
 //submit function needed and update
     //what needs to happen, needs to be added to list(append)
 $(function() {
-    $('#.js-shopping-list-form').submit(function(event) {
+    $('#js-shopping-list-form').submit(function(event) {
         event.preventDefault();
-        const ListItem = $('shopping-list-entry').val();
+        const listItem = $('#shopping-list-entry').val();
 
         $('#shopping-list-entry').val('');
 
