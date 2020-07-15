@@ -1,4 +1,4 @@
-//submit function needed 
+//submit function needed and update
     //what needs to happen, needs to be added to list(append)
 $(function() {
     $('#.js-shopping-list-form').submit(function(event) {
@@ -29,7 +29,7 @@ $(function() {
         $(this).closest('li').remove();
         });
 
-    });
+});
 //delete function to remove item from list (.remove?)
 //if checked, put this class (.shopping-item__checked) 
 
